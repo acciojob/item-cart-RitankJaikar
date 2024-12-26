@@ -1,16 +1,78 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Item Cart</title>
+  <style>
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+
+    caption {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      text-align: left;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #f4f4f4;
+    }
+
+    tfoot td {
+      font-weight: bold;
+      text-align: right;
+    }
+
+    img {
+      max-width: 50px;
+      max-height: 50px;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <table>
+    <caption>Item Cart</caption>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Banana</td>
+        <td>₹1.20</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Burger</td>
+        <td>₹6.90</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Cookie</td>
+        <td>₹4.20</td>
+        <td>4</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td >Total</td>
+        <td>₹12.10</td>
+		<td>8</td>
+      </tr>
+    </tfoot>
+  </table>
 </body>
-
 </html>
